@@ -8,11 +8,110 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+<!-- GIVEN I need to sample a potential employee's previous work
+
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport -->
 <body>
     <!-- TODO: build the website as it appears in the mock-up -->
-    <h1>Nathan Pokrandt</h1>
+    <header>
+        <h1>Nathan Pokrandt</h1>
+        <nav>
+            <a href="#">About Me</a>
+            <a href="#">Work</a>
+            <a href="#">Contact me</a>
+            <a href="#">Resume</a>
+        </nav>
+    </header>   
+    <figure>
+        <h2>Portfolio</h2>
+    </figure>
+    <main>
+        <!-- one container each for the bio and the image gallery -->
+        <section>
+            <aside>
+                <h2>About Me</h2>
 
-    <p>Look at my awesome portfolio!</p>
-    
+            </aside>
+            <article>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium aliquid ex qui quidem sequi adipisci, aperiam inventore beatae porro suscipit voluptates quia sapiente reprehenderit maiores ipsam quis provident expedita officia.
+                Excepturi deleniti fuga, veniam dicta numquam error rerum harum repellendus repellat eveniet sapiente id dignissimos asperiores minima, magni ipsam, expedita laboriosam quidem neque reiciendis nemo odit maiores. Neque, molestias odit.
+
+            </article>
+
+        </section>
+        <section>
+            <aside>
+                <h2>Work</h2>
+            </aside>
+            <div>
+                <figure>
+                    <!-- Scraggle: the featured website -->
+                    <div>
+                        <h4>Scraggle</h4>
+                        <p>Javascript/PHP</p>
+                    </div>
+                </figure>                   
+                <figure>
+                    <div>
+                        <h4>Puzzle Homepage</h4>
+                        <p>CSS</p>
+                    </div>
+                </figure>
+                <figure>
+                    <!-- prework study guide: tertiary -->
+                    <div>
+                        <h4>Color Game</h4>
+                        <p>JavaScript/CSS</p>
+                    </div>
+                </figure>
+                <figure>
+                    <!-- placeholder -->
+                    <div>
+                        <h4>placeholder</h4>
+                        <p>JavaScript/CSS</p>
+                    </div>
+                </figure>
+                <figure>
+                    <!-- placeholder -->
+                    <div>
+                        <h4>placeholder</h4>
+                        <p>JavaScript/CSS</p>
+                    </div>
+                </figure>
+            </div>
+
+        </section>
+        
+    </main>
+    <footer>
+        <aside>
+            <h2>Contact Me</h2>
+        </aside>
+        <!-- contact info -->
+        <nav>
+            <a href="#">608-622-0510</a>
+            <a href="#">npokrandt919@gmail.com</a>
+            <a href="#">Github</a>
+            <a href="#">LinkedIn</a>
+            <!-- potentially will add another link -->
+            <!-- <a href="#"></a> -->
+        </nav>        
+    </footer>    
 </body>
 </html>

@@ -1,1 +1,12 @@
 /* TODO: add styles to make the portfolio look AMAZING! */
+:root {
+    --primary-color: green;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 300%;
+}
