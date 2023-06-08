@@ -7,20 +7,28 @@ Body: mock-up doesn't have one; I might add one if it looks nice
 Aside-divider: slightly different from the headers next to it
 the images don't need color (second header and project images) */
 :root {
-    --accent-color: cyan;
+    --accent-color: rgb(49, 255, 245);
     --text-color: navy;
 }
 
 body {
     font-size: 16px;
+    font-family: sans-serif;
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 4% 15px 0;
+    width: 96%;
+    align-items: center;
+    font-family: sans-serif;
     background-color: rgb(70, 68, 68);
 }
 
 h1 {
-    font-size: 350%;
+    font-size: 330%;
+    padding: 0 10px 0 5%;
     color: var(--text-color);
     background-color: var(--accent-color);
 }
@@ -30,9 +38,18 @@ h2{
     color: var(--text-color);
 }
 
-nav a{
+header a{
+    margin: 0 3px;
+    padding: 5px 10px;
+    font-size: 140%;
     text-decoration: none;
+    border-bottom: 4px solid var(--accent-color);
     color: var(--accent-color);
+}
+
+header a:hover {
+    color: blue;
+    border-bottom: 4px solid blue;
 }
 
 figure h2{
@@ -57,10 +74,11 @@ aside {
 }
 
 aside h2{
-    text-align: left;
+    text-align: right;
 }
 
 footer {
+    font-family: sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
