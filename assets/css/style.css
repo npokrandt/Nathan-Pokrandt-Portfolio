@@ -1,12 +1,71 @@
 /* TODO: add styles to make the portfolio look AMAZING! */
+
+/* Colors to add:
+Header: unique color
+Header links: about the same as the subtitle background, the borders around the project images, and the text box within
+Body: mock-up doesn't have one; I might add one if it looks nice
+Aside-divider: slightly different from the headers next to it
+the images don't need color (second header and project images) */
 :root {
-    --primary-color: green;
+    --accent-color: cyan;
+    --text-color: navy;
 }
 
 body {
     font-size: 16px;
 }
 
+header {
+    background-color: rgb(70, 68, 68);
+}
+
 h1 {
-    font-size: 300%;
+    font-size: 350%;
+    color: var(--text-color);
+    background-color: var(--accent-color);
+}
+ 
+h2{
+    font-size: 275%;
+    color: var(--text-color);
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+figure h2{
+    padding: 50px;
+    color: var(--text-color);
+    background-color: var(--accent-color);
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+article {
+    width: 75%;
+}
+
+aside {
+    width: 25%;
+    border-right: 3px solid var(--text-color);
+}
+
+aside h2{
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: black
 }
