@@ -48,14 +48,8 @@ header a{
 }
 
 header a:hover {
-    color: blue;
-    border-bottom: 4px solid blue;
-}
-
-figure h2{
-    padding: 50px;
-    color: var(--text-color);
-    background-color: var(--accent-color);
+    color: lightblue;
+    border-bottom: 4px solid lightblue;
 }
 
 section {
@@ -86,4 +80,21 @@ footer {
 
 footer a {
     color: black
+}
+
+.banner {
+    position: relative;
+    height: 260px;
+    background-image: url('../../assets/images/sunset_banner.JPG');
+    background-size: cover;
+}
+
+.banner p {
+    font-size: 200%;
+    position: absolute;
+    padding: 10px;
+    right: 100px;
+    bottom: 20px;
+    color: var(--text-color);
+    background-color: var(--accent-color);
 }
