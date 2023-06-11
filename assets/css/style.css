@@ -6,10 +6,14 @@ Header links: about the same as the subtitle background, the borders around the 
 Body: mock-up doesn't have one; I might add one if it looks nice
 Aside-divider: slightly different from the headers next to it
 the images don't need color (second header and project images) */
+
+/* variables */
 :root {
     --accent-color: rgb(49, 255, 245);
     --text-color: navy;
 }
+
+/* Element selectors */
 
 body {
     font-size: 16px;
@@ -37,6 +41,15 @@ h1 {
 h2{
     font-size: 275%;
     color: var(--text-color);
+}
+
+h4 {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+figure p {
+    margin-top: 10px;
 }
 
 header a{
@@ -78,6 +91,12 @@ aside h2{
     margin-right: 15px;
 }
 
+/* the formatting for the featured project box */
+section div figure:first-child {
+    width: 75%;
+    height: 350px;
+}
+
 footer {
     font-family: sans-serif;
     display: flex;
@@ -85,9 +104,17 @@ footer {
     align-items: center;
 }
 
-footer a {
-    color: black
+footer nav {
+    margin: auto;
 }
+
+footer a {
+    color: black;
+    font-size: 120%;
+    margin: 0 15px;
+}
+
+/* Class selectors */
 
 .banner {
     position: relative;
@@ -113,12 +140,52 @@ footer a {
     justify-content: space-between;
 }
 
-.project-info {
-    margin: 0 10px;
-    border: 3px solid black;
+.project-container figure {
+    position: relative;
+    width: 38%;
+    height: 125px;
+    border: 3px solid var(--accent-color);
+    margin: 5px 10px;
+    flex-grow: 1;
 }
+
+.project-info {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    background-color: var(--accent-color);
+    padding: 5px;
+    /* border: 3px solid black; */
+}
+
+/* ID selectors */
 
 #about-me p {
     line-height: 25px;
     margin: 0 20px 20px;
+}
+
+#scraggle {
+    background-image: url('../../assets/images/sunset_banner.JPG');
+    background-size: cover;
+}
+
+#puzzle {
+    background-image: url('../../assets/images/sunset_banner.JPG');
+    background-size: cover;
+}
+
+#color {
+    background-image: url('../../assets/images/sunset_banner.JPG');
+    background-size: cover;
+}
+
+#note {
+    background-image: url('../../assets/images/sunset_banner.JPG');
+    background-size: cover;
+}
+
+#traffic {
+    background-image: url('../../assets/images/sunset_banner.JPG');
+    background-size: cover;
 }
