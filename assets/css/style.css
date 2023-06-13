@@ -1,12 +1,3 @@
-/* TODO: add styles to make the portfolio look AMAZING! */
-
-/* Colors to add:
-Header: unique color
-Header links: about the same as the subtitle background, the borders around the project images, and the text box within
-Body: mock-up doesn't have one; I might add one if it looks nice
-Aside-divider: slightly different from the headers next to it
-the images don't need color (second header and project images) */
-
 /* variables */
 :root {
     --accent-color: rgb(49, 255, 245);
@@ -205,4 +196,24 @@ footer a:hover {
 #traffic {
     background-image: url('../../assets/images/IMG_4356.JPG');
     background-size: cover;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 1080px) {
+
+    .project-container a {
+
+        width: 75%;
+    
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 12px;
+    }
+    
 }

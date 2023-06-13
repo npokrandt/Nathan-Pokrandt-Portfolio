@@ -8,43 +8,23 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<!-- GIVEN I need to sample a potential employee's previous work
-
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport -->
 <body>
-    <!-- TODO: build the website as it appears in the mock-up -->
+    <!-- Header -->
     <header>
         <h1>Nathan Pokrandt</h1>
         <nav>
             <a href="#about-me">About Me</a>
             <a href="#work">Work</a>
             <a href="#contact-me">Contact me</a>
-            <!-- <a href="#">Resume</a> -->
         </nav>
     </header>   
+    <!-- Banner -->
     <figure class="banner">
         <img src="assets/images/IMG_0095 (2).JPG" alt="profile picture">
-        <!-- <img src="assets/images/IMG_2518.JPG" alt="cool sunset banner"> -->
         <p>Sample my work below!</p>
     </figure>
     <main>
-        <!-- one container each for the bio and the image gallery -->
+        <!-- about me -->
         <section id="about-me">
             <aside>
                 <h2>About</h2>
@@ -57,6 +37,7 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
             </article>
 
         </section>
+        <!-- my projects -->
         <section id="work">
             <aside>
                 <h2>Work</h2>
@@ -92,12 +73,13 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
                         <h4>Traffic Simulator</h4>
                         <p>JavaScript/CSS</p>
                     </div>
-            </a>
+                </a>
             </div>
 
         </section>
         
     </main>
+    <!-- footer -->
     <footer id="contact-me">
         <aside>
             <h2>Contact</h2>
@@ -109,8 +91,6 @@ THEN I am presented with a responsive layout that adapts to my viewport -->
             <a href="mailto:npokrandt919@gmail.com">npokrandt919@gmail.com</a>
             <a href="https://github.com/npokrandt" target="_blank">Github</a>
             <a href="https://www.linkedin.com/in/nathan-pokrandt-241674194/" target="_blank">LinkedIn</a>
-            <!-- potentially will add another link -->
-            <!-- <a href="#"></a> -->
         </nav>        
     </footer>    
 </body>
