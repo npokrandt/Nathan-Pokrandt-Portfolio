@@ -48,7 +48,7 @@ h4 {
     font-weight: bold;
 }
 
-figure p {
+a p {
     margin-top: 10px;
 }
 
@@ -92,9 +92,13 @@ aside h2{
 }
 
 /* the formatting for the featured project box */
-section div figure:first-child {
+section div a:first-child {
     width: 75%;
     height: 350px;
+}
+
+section div a:hover {
+    opacity: 0.75;
 }
 
 footer {
@@ -112,6 +116,10 @@ footer a {
     color: black;
     font-size: 120%;
     margin: 0 15px;
+}
+
+footer a:hover {
+    color: red;
 }
 
 /* Class selectors */
@@ -133,6 +141,15 @@ footer a {
     background-color: var(--accent-color);
 }
 
+.banner img {
+    border: 3px solid black;
+    width: 210px;
+    height: 175px;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+
 .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -140,7 +157,7 @@ footer a {
     justify-content: space-between;
 }
 
-.project-container figure {
+.project-container a {
     position: relative;
     width: 38%;
     height: 125px;
@@ -166,26 +183,26 @@ footer a {
 }
 
 #scraggle {
-    background-image: url('../../assets/images/sunset_banner.JPG');
+    background-image: url('../../assets/images/Screenshot\ 2023-06-12\ at\ 22-44-06\ Scraggle.png');
     background-size: cover;
 }
 
 #puzzle {
-    background-image: url('../../assets/images/sunset_banner.JPG');
+    background-image: url('../../assets/images/Screenshot\ 2023-06-09\ at\ 15-10-50\ Puzzle\ Homepage.png');
     background-size: cover;
 }
 
 #color {
-    background-image: url('../../assets/images/sunset_banner.JPG');
+    background-image: url('../../assets/images/Screenshot\ 2023-06-09\ at\ 14-32-26\ The\ Color\ Game.png');
     background-size: cover;
 }
 
 #note {
-    background-image: url('../../assets/images/sunset_banner.JPG');
+    background-image: url('../../assets/images/IMG_2061\ \(2\)\ -\ Copy.JPG');
     background-size: cover;
 }
 
 #traffic {
-    background-image: url('../../assets/images/sunset_banner.JPG');
+    background-image: url('../../assets/images/IMG_4356.JPG');
     background-size: cover;
 }
