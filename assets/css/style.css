@@ -184,6 +184,18 @@ footer a:hover {
     background-position: center;
 }
 
+#bored {
+    background-image: url('../../assets/images/OhSo_Bored-pic.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#coffee {
+    background-image: url('../../assets/images/coffee-orders.png');
+    background-size: cover;
+    background-position: center;
+}
+
 #puzzle {
     background-image: url('../../assets/images/Screenshot\ 2023-06-09\ at\ 15-10-50\ Puzzle\ Homepage.png');
     background-size: cover;
@@ -196,7 +208,7 @@ footer a:hover {
     background-position: center;
 }
 
-#note {
+/* #note {
     background-image: url('../../assets/images/IMG_2061\ \(2\)\ -\ Copy.JPG');
     background-size: cover;
     background-position: center;
@@ -206,7 +218,7 @@ footer a:hover {
     background-image: url('../../assets/images/IMG_4356.JPG');
     background-size: cover;
     background-position: center;
-}
+} */
 
 /* Media queries for responsiveness */
 
