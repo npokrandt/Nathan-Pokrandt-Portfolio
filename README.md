@@ -8,9 +8,9 @@ At the top of the page is a header with my name, and links to the rest of the pa
 
 ## What it looks like
 
-![header of the page](/assets/images/Screenshot%202023-06-12%20at%2023-06-27%20Nathan's%20Portfolio.png)
-![feature of the work](/assets/images/Screenshot%202023-06-12%20at%2023-06-41%20Nathan's%20Portfolio.png)
-![footer of the site](/assets/images/Screenshot%202023-06-12%20at%2023-07-02%20Nathan's%20Portfolio.png)
+![header of the page](/assets/images/header.png)
+![feature of the work](/assets/images/work.png)
+![footer of the site](/assets/images/footer.png)
 
 ## Link to site
 
